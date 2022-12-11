@@ -5,7 +5,9 @@ import Nav_Bar from './components/Nav_Bar';
 function App() {
   return (
     <>
+    <div className="avenger">
       <Nav_Bar/>
+    </div>
     </>
   );
 }
