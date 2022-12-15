@@ -93,7 +93,7 @@ export default function Nav_Bar() {
           </div>
         </div>
       </nav>
-      <form class="container d-flex justify-content-center mt-2">
+      {/* <form class="container d-flex justify-content-center mt-2">
         <input
           class="form-control me-2 search_bar md-w-50"
           type="search"
@@ -103,7 +103,7 @@ export default function Nav_Bar() {
         <button class="btn btn-outline-success" type="submit">
           Search
         </button>
-      </form>
+      </form> */}
     </>
   );
 }
