@@ -1,16 +1,18 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-// import Container from 'react-bootstrap/Container';
-import Nav_Bar from './components/Nav_Bar';
-import Carousel from './components/Carousel'
+import NavBar from './components/NavBar';
+// import Carousel from './components/Carousel'
+import LandingPage from './components/LandingPage';
+import Data from './components/Temp/Data';
 function App() {
   return (
     <>
     <div className="main_hero">
-      <Nav_Bar/>
+      <NavBar/>
       <div className="container">
-        <Carousel />
-        {/* <LandingPage /> */}
+        {/* <Carousel /> */}
+        <LandingPage img={'https://cdn.pixabay.com/photo/2022/10/14/08/03/earbuds-7520738_960_720.jpg'} no={1}/>
+        <Data/>
       </div>
     </div>
     </>
